@@ -11,6 +11,8 @@ class PostsController < ApplicationController
     render json: post
   end
 
+  
+
   private
 
   def render_not_found_response
